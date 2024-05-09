@@ -3,7 +3,7 @@ print("----Calculator----")
 result = int(input("Enter a Numbers: "))
 while True:
     os.system("clear")
-    print("--Calculator--")
+    print("----Calculator----")
     print("\nResult : ",result,"\n")
     choice = input("Addition\nSubtraction\nMultiplication\nDivision\nExit\n\nEnter Your Choice : ")
     if choice in ["Exit",'EXIT','EXIT','exit','Exit','e','E']:
