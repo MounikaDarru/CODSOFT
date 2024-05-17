@@ -24,4 +24,5 @@ while True:
       elif choice in ['div','/','division']:
         result /= y
         print("\nResult : ",result)
+        result = int(result)
   

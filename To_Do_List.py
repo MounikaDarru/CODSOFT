@@ -1,3 +1,4 @@
+import os, time
 tasks = []
 def add():
     task = input("\nEnter The Task : ")
@@ -21,6 +22,8 @@ print("----To The To Do List----\n")
 while True:
     option = input("\nAdd Task\nUpdate Task\nView Tasks\nExit\n\nEnter Your Choice : ")
     option.lower()
+    if option:
+        os.system('cls' if os.name == 'nt' else 'clear')
 
     if option in ["add task","add"]:
         add()
@@ -30,3 +33,4 @@ while True:
         view()
     elif option in ["exit"]:
         break
+    
