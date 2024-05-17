@@ -18,7 +18,7 @@ while(1):
         if(player1 == 'rock' or player2 == 'rock'):
             if(player1 == 'rock' and player2 == 'rock'):
                 print("You : ",player1,"\tComputer : ",player2)
-                print("\n\t\tTie")
+                print("\n\tTie")
             elif(player1 == 'paper' or player2 == 'paper'):
                 if(player1 == 'paper'):
                     print("You : ",player1,"\tComputer : ",player2)
@@ -41,7 +41,7 @@ while(1):
         elif(player1 == 'paper' or player2 == 'paper'):
             if(player1 == 'paper' and player2 == 'paper'):
                 print("You : ",player1,"\tComputer : ",player2)
-                print("\n\t\tTie")
+                print("\n\tTie")
             elif(player1 == 'scissors' or player2 == 'scissors'):
                 if(player1 == 'scissors'):
                     print("You : ",player1,"\tComputer : ",player2)
@@ -64,7 +64,7 @@ while(1):
         elif(player1 == 'scissors' or player2 == 'scissors'):
             if(player1 == 'scissors' and player2 == 'scissors'):
                 print("You : ",player1,"\tComputer : ",player2)
-                print("\n\t\tTie")
+                print("\n\tTie")
             elif(player1 == 'rock' or player2 == 'rock'):
                 if(player1 == 'rock'):
                     print("You : ",player1,"\tComputer : ",player2)
